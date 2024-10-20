@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Success</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body class="background-image">
+    <img src="{% static 'images/success.png' %}" alt="Success" class="success-image"> 
+    
+    <h2 class="success-message">File Uploaded Successfully!<br>Report email has been sent!</h2>
+    
+    <button onclick="window.location.href='/'">Return Home</button> 
+</body>
+</html>
